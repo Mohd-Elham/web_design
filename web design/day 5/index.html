@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="output()">click me</button>
+    <script>
+        function output(){
+            console.log("button cliked")
+
+            // var give data types automatically
+            var a="hi";
+            var b=2;
+            var sum=a+b;
+            console.log(sum+a);
+
+            let c=69  
+            // let: it can only delcared once but value can be changed
+            c=70
+            console.log("c="+c)
+
+            //const: value cant be changed
+            const pi=3.14
+            console.log("pi="+pi)
+
+            //arr: array
+            var array=["my ","name ","elham ", 34]
+            console.log(array)
+            console.log(array[3])
+
+            //object
+            var empolyer=[
+                {   name:"person 1",
+                    age:69},
+                {   name:"person 2",
+                    age:70}
+            ]
+            console.log(empolyer)
+            console.log("name="+empolyer[1].name)
+
+            //if
+            var d=68
+            if(d%2==0){
+                console.log("even")
+            }else{
+                console.log("odd")
+            }
+
+            //for
+            var n=5
+            for(var i=1;i<=n;i++){
+                console.log(i)
+            }
+        }
+    </script>
+</body>
+</html>

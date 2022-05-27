@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.header{
+    background-color: #4267B2;
+    width: 100%;
+    height: 85px;
+    margin: 0px;
+    padding-top: 17px;
+}
+.logo{
+    width: 50%;
+    height: 85px;
+    float: left;
+
+}
+.logo_text{
+    margin-left: 115px;
+    width: 225px;    
+}
+.logo_fb{
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 275px;
+    font-weight: bold;
+}
+.login{
+    width: 50%;
+    height: 85px;
+    float: left;
+}
+.login_text{
+    color: #ffffff;
+    font-size: 15px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: strong;
+    margin-left: 0px;
+    font-weight: 100;
+}
+.login_table{
+    margin-left: 100px;
+}
+.button_login{
+    height: 20px;
+    font-weight: bold;
+    background-color: #4267B2;
+    color: rgb(255, 255, 255);
+    border-color: #2c4475;
+    cursor: pointer;
+}
+.button_login:hover{
+    background-color: hotpink;
+}
+.left_sec{
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+.fb_text{    
+        color: #0e385f;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 40px;
+        width: 450px;
+        margin-left: 255px;
+        float: left;
+}
+.fb_img {
+    width: 502px;
+    margin-left: 242px;
+}
